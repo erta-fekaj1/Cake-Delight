@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Cake Delight</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <link rel="icon" href="Images/favicon.svg.webp" type="image/png">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="Images/logo1.jpg" alt="Cake Delight Logo" style="width: 40px; height: 40px; margin-right: 10px; border-radius: 50%;">
+        Cake Delight
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="tips.html">Tips & Tricks</a></li>
+          <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="subscribe.html">Subscribe</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section class="py-5">
+    <div class="container">
+      <h1 class="text-center mb-4">About Cake Delight</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="Images/About us.jpg" class="img-fluid rounded" alt="About Us">
+        </div>
+        <div class="col-md-6">
+          <p class="lead">At Cake Delight, we believe that baking is more than just cooking; it's an art. Founded by passionate bakers, our mission is to bring the joy of homemade cakes to every household.</p>
+          <p>Whether you're a beginner or an experienced baker, we offer a variety of recipes, tips, and tutorials to inspire your baking journey. From classic vanilla cakes to innovative creations, Cake Delight is your ultimate resource for all things cake.</p>
+          <h3>Our Values</h3>
+          <ul id="values-list">
+            <li><strong>Quality:</strong> Only the best recipes and techniques.</li>
+            <li><strong>Community:</strong> Connecting bakers from around the world.</li>
+            <li><strong>Innovation:</strong> Exploring new flavors and styles.</li>
+          </ul>
+          <button id="toggle-values-btn" class="btn btn-primary" onclick="toggleValues()">Show More</button>
+          <p>Join us in celebrating the love of baking!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-white text-center py-3">
+    <p>&copy; 2024 Cake Delight. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

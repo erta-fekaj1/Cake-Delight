@@ -236,6 +236,10 @@
     color: #0f5132;
     border: 1px solid #badbcc;
   }
+
+  .bg-dark {
+    background-color: #000 !important
+  }
   
   
   

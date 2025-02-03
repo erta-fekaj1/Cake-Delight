@@ -125,6 +125,13 @@
     padding: 20px;
     border-radius: 8px;
   }
+
+  .ef-cakelogo {
+    width: 40px; 
+    height: 40px; 
+    margin-right: 10px; 
+    border-radius: 50%;
+  }
   
   .form-control {
     border-radius: 30px;
